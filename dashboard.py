@@ -18,9 +18,10 @@ def mostrar_menu():
     ruta_base = os.path.dirname(__file__)
 
     opciones = {
-        '1': 'Unidad 1'
-        '/1.2. Tecnicas de Programacion '
-        '2 : Ejemplo Tecnicas de Programacion.py',
+        '1': 'alumno/alumnota.py',
+        '2': 'area_triangulo/area_triangulo.py',
+        '3': 'constructor_destructor/constructor_destructores.py',
+        '4': 'herencia/clase_objeto_herencia.py',
         # Agrega aquí el resto de las rutas de los scripts
     }
 
