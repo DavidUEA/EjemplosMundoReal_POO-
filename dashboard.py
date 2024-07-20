@@ -22,15 +22,15 @@ def mostrar_menu():
         '2': 'area_triangulo/area_triangulo.py',
         '3': 'constructor_destructor/constructor_destructores.py',
         '4': 'herencia/clase_objeto_herencia.py',
-        # Agrega aquí el resto de las rutas de los scripts
+        #  rutas de los scripts que se encuentran en mi proyecto
     }
 
     while True:
-        print("\nMenu Principal - Dashboard")
+        print("\n--------Menu Principal - Dashboard------------")
         # Imprime las opciones del menú
         for key in opciones:
             print(f"{key} - {opciones[key]}")
-        print("0 - Salir")
+        print("     0 - Salir      ")
 
         eleccion = input("Elige un script para ver su código o '0' para salir: ")
         if eleccion == '0':
