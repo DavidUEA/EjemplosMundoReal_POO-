@@ -26,7 +26,7 @@ def mostrar_menu():
     }
 
     while True:
-        print("\nMenu Principal - Dashboard")
+        print("\n--------Menu Principal - Dashboard------------")
         # Imprime las opciones del menú
         for key in opciones:
             print(f"{key} - {opciones[key]}")
