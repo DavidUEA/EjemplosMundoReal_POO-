@@ -26,11 +26,11 @@ def mostrar_menu():
     }
 
     while True:
-        print("\n--------Menu Principal - Dashboard------------")
+        print("\n--------  Menu Principal - Dashboard  ------------")
         # Imprime las opciones del menú
         for key in opciones:
             print(f"{key} - {opciones[key]}")
-        print("     0 - Salir      ")
+        print("---------        0 - Salir          ----------     ")
 
         eleccion = input("Elige un script para ver su código o '0' para salir: ")
         if eleccion == '0':
