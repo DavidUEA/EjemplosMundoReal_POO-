@@ -23,6 +23,7 @@ def mostrar_menu():
         '3': 'constructor_destructor/constructor_destructores.py',
         '4': 'herencia/clase_objeto_herencia.py',
         '5': 'temperaturas/temperaturas.py',
+        '6': 'Program_ori_objetos/Program_ori_objetos.py',
         #  rutas de los scripts que se encuentran en mi proyecto
     }
 
